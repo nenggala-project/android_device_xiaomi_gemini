@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2021 The Nenggala Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gemini.mk
+    $(LOCAL_DIR)/nenggala_gemini.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gemini-user \
-    lineage_gemini-userdebug \
-    lineage_gemini-eng
+    nenggala_gemini-user \
+    nenggala_gemini-userdebug \
+    nenggala_gemini-eng
